@@ -68,9 +68,15 @@ h1 {
     width: 20vh;
 }
 
-img {
+.logo-img {
     height: 5vh;
     width: 5vh;
+}
+
+.bio-image{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 1em;
 }
 
 .main-content p {
