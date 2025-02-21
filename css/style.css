@@ -129,6 +129,21 @@ h1 {
     border-radius: 1em;
 }
 
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px black;
+    border-style: double;
+}
+
 footer {
     display: flex;
     flex-direction: row;
