@@ -6,13 +6,6 @@ body {
     margin: 0;
 }
 
-/* .nav-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: darkred;
-    border-radius: .5em;
-} */
 .nav-bar {
     display: flex;
     flex-direction: row;
@@ -63,6 +56,12 @@ body {
     transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;
+    text-decoration: underline;
+}
+
 #img-myself {
     border-radius: 50%;
     height: 20vh;
@@ -74,10 +73,17 @@ img {
     width: 5vh;
 }
 
+.main-content p {
+    width: 50vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
 .main-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 
 footer {
