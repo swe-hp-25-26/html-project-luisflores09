@@ -1,0 +1,162 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    background-color: lightyellow;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2b26; /* Dark slate color */
+    padding: 10px 20px;
+    border-radius: 8px; /* Rounded corners for softer edges */
+    border: 3px solid #908d39; /* Triforce gold border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.nav-buttons a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-buttons li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f4df8b; /* Zelda-inspired gold color */
+    border: 2px solid #daa520; /* Darker gold border */
+    padding: 10px 20px; /* Button size */
+    font-family: 'Press Start 2P', cursive; /* Retro gaming font */
+    color: #2f4f4f; /* Dark slate gray text */
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    border-radius: 5px;
+}
+
+.nav-buttons li:hover {
+    background-color: #fff8dc; /* Lighter gold on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+#img-myself {
+    border-radius: 50%;
+    height: 20vh;
+    width: 20vh;
+}
+
+.logo-img {
+    height: 5vh;
+    width: 5vh;
+}
+
+.bio-image{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 1em;
+}
+
+.main-content p {
+    width: 50vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px #daa520;
+    border-style: double;
+    border-radius: .25em;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: #908d39;
+}
+
+.project h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.project p, .project ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.project img{
+    height: 40vh;
+    width: 40vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px black;
+    border-style: double;
+    border-radius: .5em;
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2b26; /* Dark slate color */
+    padding: 10px 20px;
+    border-radius: 8px; /* Rounded corners for softer edges */
+    border: 3px solid #908d39; /* Triforce gold border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    height: 3vh;
+    margin-top: 20px;
+}
